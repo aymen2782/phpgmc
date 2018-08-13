@@ -6,6 +6,8 @@
  * Time: 10:15
  */
 //permet d ouvrir une sesion
+
+echo $_SESSION['todoListe'];
 session_start();
 
 //je verifie si la session contient ma liste
